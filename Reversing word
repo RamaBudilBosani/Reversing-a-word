@@ -1,0 +1,5 @@
+word = "Hello World"
+new_word = " "
+for i in range(0,len(word)):
+    new_word += word[len(word)-i-1]
+print(new_word)
